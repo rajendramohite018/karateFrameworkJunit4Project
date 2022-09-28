@@ -1,5 +1,5 @@
 function fn(){
   var config = {
-   name : "rajendra"       };
+   name : "rajendra" }
      return config;
   }

@@ -14,6 +14,7 @@ Feature: GET Test demo API
     And print responseTime
     And print responseHeaders
     And print responseCookies
+    And print name
 
 # With Background  and Path --LIST USERS
   Scenario: Get demo 2
@@ -32,6 +33,7 @@ Feature: GET Test demo API
     And print response
 
  #    With Assertions ( we can use response or $)
+
   Scenario: Get demo 4
     Given path '/users'
     And param page = 2
